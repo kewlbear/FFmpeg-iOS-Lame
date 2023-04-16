@@ -3,11 +3,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "FFmpeg-iOS",
+    name: "FFmpeg-iOS-Lame",
     platforms: [.iOS(.v13)],
     products: [
         .library(
-            name: "FFmpeg-iOS",
+            name: "FFmpeg-iOS-Lame",
             targets: [
                 "avcodec", "avutil", "avformat", "avfilter", "avdevice", "swscale", "swresample",
                 "fftools", "Dummy",
