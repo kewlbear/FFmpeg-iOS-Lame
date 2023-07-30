@@ -14,7 +14,7 @@ let package = Package(
             ]),
     ],
     dependencies: [
-        .package(url: "https://github.com/kewlbear/FFmpeg-iOS-Support", from: "0.0.1"),
+        .package(url: "https://github.com/kewlbear/FFmpeg-iOS-Support", from: "0.0.2"),
     ],
     targets: [
         .binaryTarget(name: "avcodec", url: "https://github.com/kewlbear/FFmpeg-iOS-Lame/releases/download/v0.0.6-b20230416-184420/avcodec.zip", checksum: "0bea10182a4dfec3ea057564e19d22c2529d51c53cd4b1cb9ecac97131e7e149"),
